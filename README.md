@@ -22,14 +22,14 @@ This is the repository for the Smart Toybox companion app. Currently only Androi
 
 1. Create new Cocos2d-x project.
 
-        $ cocos new -l cpp -d C:\path\to\your\project\dir Smart-Toybox-Mobile-App
+        $ cocos new -l cpp -d C:\path\to\your\project\dir Smart-Toybox-MobileApp
     Note: l in -l cpp is a small L, not number one
 
 2. Checkout this repo into the newly created project root. Keep in mind that git will not allow you to clone into a non-empty directory, so you will have to find another way. This is what worked for us:
 
-        $ cd C:\path\to\your\project\dir\Smart-Toybox-Mobile-App
+        $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
         $ git init
-        $ git remote add origin https://github.com/nsumrak/Smart-Toybox-Mobile-App.git
+        $ git remote add origin https://github.com/nsumrak/Smart-Toybox-MobileApp.git
         $ git fetch
         $ git reset origin/master
         $ git reset --hard HEAD
@@ -42,7 +42,7 @@ You can now run the app on Windows from Visual studio. Open Win32 solution from 
 
 ## Build
 
-    $ cd C:\path\to\your\project\dir\Smart-Toybox-Mobile-App
+    $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
     $ cocos compile -p android
    
 It will take some time for the code to compile for the first time, but it'll be much faster later.
@@ -54,7 +54,7 @@ Cocos command line tool is very powerful and has many more options and commands 
 
 Connect your phone to the PC and make sure USB debugging is enabled in Android. If you are on Windows, you may need to install Android driver for your phone. Check [Google's documentation](https://developer.android.com/studio/run/device.html) if you've never done it before.
 
-    $ cd C:\path\to\your\project\dir\Smart-Toybox-Mobile-App
+    $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
     $ cocos deploy -p android
 
 Or you can compile and run on your phone in one step:
@@ -63,7 +63,7 @@ Or you can compile and run on your phone in one step:
 
 You can also use Android Debug Bridge (adb):
 
-    $ adb install Smart-Toybox-Mobile-App-debug.apk
+    $ adb install Smart-Toybox-MobileApp-debug.apk
 
 
 ## Third party code included [TODO]
