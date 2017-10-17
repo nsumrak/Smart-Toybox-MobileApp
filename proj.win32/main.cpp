@@ -181,6 +181,7 @@ void native_stopSmartConfig()
 
 void native_getSSID(char *buf, unsigned bsize)
 {
-	strncpy(buf, "IoTarium", bsize);
-	buf[bsize - 1] = 0;
+	//strncpy(buf, "SmartToybox", bsize);
+	//buf[bsize - 1] = 0;
+	if (bsize) buf[0] = 0;
 }

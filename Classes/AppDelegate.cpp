@@ -1,7 +1,6 @@
 #include "AppDelegate.h"
 #include "RecordScene.h"
 #include "FindBoxScene.h"
-#include "MenuScene.h"
 
 USING_NS_CC;
 

@@ -14,7 +14,7 @@ This is the repository for the Smart Toybox companion app. Currently only Androi
 
 2. Smart Toybox device with working software. 
 
-3. Obviously, you will need an Android device. We've tested with various Android phones - Samsung J7, OnePlus One, Elephone P9000, Nexus 5, Sony Xperia T, but there may be quirks with some models.
+3. Obviously, you will need an Android device. We've tested with various Android phones - Samsung Galaxy J7, OnePlus One, Elephone P9000, Nexus 5, Sony Xperia T, but there may be quirks with some models.
 
 4. Lots of free space. In our case, Cocos2d-x installation took 2.5Gb, and cocos files that were copied to the project dir took additional 5Gb when compiled. There is a way to create Cocos2d-x project without copying all the files, by specifying the engine path when creating new cocos project. Check Cocos2d-x documentation if you want to do this.
 
@@ -24,6 +24,8 @@ This is the repository for the Smart Toybox companion app. Currently only Androi
 
         $ cocos new -l cpp -d C:\path\to\your\project\dir Smart-Toybox-MobileApp
     Note: l in -l cpp is a small L, not number one
+
+    Now you have created Cocos2d-x HelloWorld project. You may test it to see that everything is installed correctly. You can use steps for Test, Build and Deploy from below to test HelloWorl project in the same way you will afterwords run the Smart Toybox project.
 
 2. Checkout this repo into the newly created project root. Keep in mind that git will not allow you to clone into a non-empty directory, so you will have to find another way. This is what worked for us:
 
@@ -38,7 +40,7 @@ This is the repository for the Smart Toybox companion app. Currently only Androi
     
 ## Test
 
-You can now run the app on Windows from Visual studio. Open Win32 solution from proj.win32 folder in Visual Studio and try to run it. Some features will not work, since they are only implemented on Windows, but you can see the graphics and play with Demo mode.
+You can now run the app on Windows from Visual studio. Open Visual Studio solution from proj.win32 folder in Visual Studio and try to run it. Some features will not work, since they are only implemented on Windows, but you can see the graphics and play with Demo mode.
 
 ## Build
 
@@ -54,10 +56,12 @@ Cocos command line tool is very powerful and has many more options and commands 
 
 Connect your phone to the PC and make sure USB debugging is enabled in Android. If you are on Windows, you may need to install Android driver for your phone. Check [Google's documentation](https://developer.android.com/studio/run/device.html) if you've never done it before.
 
+The following command will install Smart Toybox mobile app on your mobile device. 
+
     $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
     $ cocos deploy -p android
 
-Or you can compile and run on your phone in one step:
+Or you can deploy and run the app on your phone in one step:
 
     $ cocos run -p android
 
@@ -70,3 +74,4 @@ You can also use Android Debug Bridge (adb):
 * Cocos2d-x
 * WavPack
 * TI SmartConfig
+* 

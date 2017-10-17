@@ -96,7 +96,6 @@ public:
 		pwdInput->setInputMode(ui::EditBox::InputMode::SINGLE_LINE);
 		pwdInput->setReturnType(ui::EditBox::KeyboardReturnType::GO);
 		addChild(pwdInput);
-		pwdInput->setText("hopen83ter");
 		//auto checkbox = ui::CheckBox::create("", "");
 
 		auto progBg = Sprite::create("bar.png");
