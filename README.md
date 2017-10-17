@@ -70,4 +70,3 @@ You can also use Android Debug Bridge (adb):
 * Cocos2d-x
 * WavPack
 * TI SmartConfig
-* ArduinoJson
