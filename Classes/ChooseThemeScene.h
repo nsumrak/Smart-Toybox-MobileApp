@@ -20,7 +20,7 @@ std::vector<_Theme> _fetchThemes()
 	//_Theme t = { "Default" };
 	rt.push_back({ "English", "theme.stb" });
 	rt.push_back({ "Serbian", "theme_sr.stb" });
-	rt.push_back({ "Basketball", "theme_bb.stb" });
+	rt.push_back({ "Custom", "theme_custom.stb" });
 	return rt;
 }
 
