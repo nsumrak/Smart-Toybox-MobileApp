@@ -22,19 +22,19 @@ This is the repository for the [Smart Toybox](https://github.com/nsumrak/Smart-T
 
 1. Create new Cocos2d-x project.
 
-        $ cocos new -l cpp -d C:\path\to\your\project\dir Smart-Toybox-MobileApp
+        cocos new -l cpp -d C:\path\to\your\project\dir Smart-Toybox-MobileApp
     Note: l in -l cpp is a small L, not number one
 
     Now you have created Cocos2d-x HelloWorld project. You may test it to see that everything is installed correctly. You can use steps for Test, Build and Deploy from below to test HelloWorl project in the same way you will afterwords run the Smart Toybox project.
 
 2. Checkout this repo into the newly created project root. Keep in mind that git will not allow you to clone into a non-empty directory, so you will have to find another way. This is what worked for us:
 
-        $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
-        $ git init
-        $ git remote add origin https://github.com/nsumrak/Smart-Toybox-MobileApp.git
-        $ git fetch
-        $ git reset origin/master
-        $ git reset --hard HEAD
+        cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
+        git init
+        git remote add origin https://github.com/nsumrak/Smart-Toybox-MobileApp.git
+        git fetch
+        git reset origin/master
+        git reset --hard HEAD
     
     Make sure that after this you have the correct version of the files – the ones from the repo, rather than the ones from the Cocos2d-x helloworld project.
     
@@ -44,8 +44,8 @@ You can now run the app on Windows from Visual studio. Open Visual Studio soluti
 
 ## Build
 
-    $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
-    $ cocos compile -p android
+    cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
+    cocos compile -p android
    
 It will take some time for the code to compile for the first time, but it'll be much faster later.
 
@@ -58,16 +58,16 @@ Connect your phone to the PC and make sure USB debugging is enabled in Android. 
 
 The following command will install Smart Toybox mobile app on your mobile device. 
 
-    $ cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
-    $ cocos deploy -p android
+    cd C:\path\to\your\project\dir\Smart-Toybox-MobileApp
+    cocos deploy -p android
 
 Or you can deploy and run the app on your phone in one step:
 
-    $ cocos run -p android
+    cocos run -p android
 
 You can also use Android Debug Bridge (adb):
 
-    $ adb install Smart-Toybox-MobileApp-debug.apk
+    adb install Smart-Toybox-MobileApp-debug.apk
 
 
 ## Third party code included [TODO]
