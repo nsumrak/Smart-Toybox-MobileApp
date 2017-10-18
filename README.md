@@ -1,6 +1,6 @@
 # Smart Toybox Mobile App
 
-This is the repository for the Smart Toybox companion app. Currently only Android platform is fully supported.
+This is the repository for the [Smart Toybox](https://github.com/nsumrak/Smart-Toybox-Embedded-TI) companion app. Currently only Android platform is fully supported.
 
 ## Requirements
 
