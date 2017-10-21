@@ -255,14 +255,14 @@ public:
 			int num = atoi(response->getHttpRequest()->getTag());
 			log("discovery http response OK num=%d", num);
 			// if num = 0, item is gw, not found by mdns. check if it is a toybox
-			std::vector<char> *buffer = response->getResponseData();
-			const char *expected_resp = "esp_toybox";
-			if (num == 0) {
-				if (strncmp(expected_resp, buffer->data(), strlen(expected_resp))) {
-					log("gateway is not a toybox, response data");
-					return;
-				}
-			}
+			//std::vector<char> *buffer = response->getResponseData();
+			//const char *expected_resp = "esp_toybox";
+			//if (num == 0) {
+			//	if (strncmp(expected_resp, buffer->data(), strlen(expected_resp))) {
+			//		log("gateway is not a toybox, response data");
+			//		return;
+			//	}
+			//}
 			char buf[256];
 			native_getDnsSDdiscoveryItem(num, buf, 256);
 			g_toyboxIPs.push_back(buf);
