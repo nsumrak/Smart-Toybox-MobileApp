@@ -9,7 +9,7 @@
 
 using namespace cocos2d;
 
-#define SEARCH_TIME_SEC	15
+#define SEARCH_TIME_SEC	60
 
 class FindBoxScene : public Layer
 {
