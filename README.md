@@ -71,6 +71,9 @@ You can also use Android Debug Bridge (adb):
 
 
 ## Third party code included [TODO]
-* Cocos2d-x
-* WavPack
-* TI SmartConfig
+* Cocos2d-x http://www.cocos2d-x.org/
+* WavPack http://www.wavpack.com/
+* TI SmartConfig http://www.ti.com/tool/SMARTCONFIG
+
+## Assets
+* Kenney http://kenney.nl/
