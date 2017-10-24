@@ -13,7 +13,7 @@ using namespace network;
 
 //#define TOYBOX_URL "http://192.168.0.101:80/"
 #define POST_SOUND "snd/a"
-#define POST_THEME "thm"
+#define POST_THEME "snd/t"
 
 
 class SendDlg : public Layer
