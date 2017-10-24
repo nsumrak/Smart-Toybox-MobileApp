@@ -70,9 +70,10 @@ You can also use Android Debug Bridge (adb):
     adb install Smart-Toybox-MobileApp-debug.apk
 
 
-## Third party code included [TODO]
+## Third party code included
 * Cocos2d-x http://www.cocos2d-x.org/
 * WavPack http://www.wavpack.com/
+* Smart Touch https://www.surina.net/soundtouch/
 * TI SmartConfig http://www.ti.com/tool/SMARTCONFIG
 
 ## Assets
